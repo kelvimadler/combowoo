@@ -1,9 +1,11 @@
 <?php
 /**
  * Plugin Name: ComboWoo - Combos Dinâmicos para WooCommerce
+ * Plugin URI: https://github.com/kelvimadler/combowoo
  * Description: Cria produtos do tipo "Combo" que agrupam produtos simples e variáveis. Vende como combo no front (preço, peso e dimensões próprios); no pedido, o combo permanece com o preço total e os produtos componentes entram a R$ 0,00 (com seus SKUs) — assim o WooCommerce e o Bling dão baixa no estoque de cada produto.
- * Version: 1.0.0
- * Author: ComboWoo
+ * Version: 2.0.1
+ * Author: Kelvim Adler
+ * Author URI: https://github.com/kelvimadler
  * Text Domain: combowoo
  * Domain Path: /languages
  * Requires at least: 5.8
@@ -18,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'COMBOWOO_VERSION', '1.0.0' );
+define( 'COMBOWOO_VERSION', '2.0.1' );
 define( 'COMBOWOO_FILE', __FILE__ );
 define( 'COMBOWOO_PATH', plugin_dir_path( __FILE__ ) );
 define( 'COMBOWOO_URL', plugin_dir_url( __FILE__ ) );
