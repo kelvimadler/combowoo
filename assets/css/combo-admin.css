@@ -1,0 +1,53 @@
+.combowoo-help {
+	color: #666;
+	margin-top: -8px !important;
+	line-height: 1.5;
+}
+
+.combowoo-components-table {
+	margin: 0 12px 8px;
+	width: calc(100% - 24px);
+	border-collapse: collapse;
+}
+
+.combowoo-components-table th,
+.combowoo-components-table td {
+	padding: 8px 10px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.combowoo-components-table thead th {
+	background: #f6f7f7;
+	border-bottom: 1px solid #e2e4e7;
+}
+
+.combowoo-components-table .combowoo-col-qty {
+	width: 70px;
+}
+
+.combowoo-components-table .combowoo-col-actions {
+	width: 40px;
+}
+
+.combowoo-variation-cell select {
+	min-width: 170px;
+	margin-right: 4px;
+	max-width: 100%;
+}
+
+.combowoo-variation-cell .combowoo-simple-label {
+	color: #888;
+	font-style: italic;
+}
+
+.combowoo-add-wrap {
+	padding: 0 12px 4px;
+}
+
+.combowoo-remove-row {
+	color: #a00;
+	font-size: 16px;
+	line-height: 1;
+	padding: 0 8px;
+}

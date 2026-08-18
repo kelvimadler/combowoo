@@ -1,0 +1,31 @@
+.combowoo-choices {
+	margin: 0 0 1em;
+}
+
+.combowoo-choice {
+	margin: 0 0 0.75em;
+}
+
+.combowoo-choice label {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 0.25em;
+}
+
+.combowoo-choice select {
+	min-width: 220px;
+	max-width: 100%;
+}
+
+.combowoo-cart .combowoo-add-to-cart {
+	margin-top: 0.5em;
+}
+
+.combowoo-unavailable {
+	margin: 0 0 1em;
+	padding: 0.75em 1em;
+	border-left: 3px solid #b32d2e;
+	background: #fbeaea;
+	color: #7a1f20;
+	font-size: 0.95em;
+}

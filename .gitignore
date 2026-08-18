@@ -1,0 +1,29 @@
+# Configurações locais do Claude Code
+.claude/settings.local.json
+
+# Dependências
+/vendor/
+/node_modules/
+
+# Build / distribuição
+/build/
+/dist/
+*.zip
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*~
+
+# Logs e temporários
+*.log
+*.tmp
+error_log
